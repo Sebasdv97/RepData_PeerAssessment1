@@ -1,7 +1,8 @@
 ---
-output:
-  html_document: default
-  html_notebook: default
+title: "PA1_template.Rmd"
+author: "Sebastian Diaz de Valdes"
+date: "15-04-2020"
+output: html_document
 ---
 Project 1
 ================
@@ -61,7 +62,6 @@ library(dplyr)
 missingvalues<-sum(is.na(data))
 missingvalues
 colSums(is.na(data))
-
 ```
 
 
@@ -74,7 +74,6 @@ mean(data$steps, na.rm = T)
 dataimpute <- data
 dataimpute$steps[is.na(dataimpute$steps)] <- mean(dataimpute$steps, na.rm = T)
 colSums(is.na(dataimpute))
-
 ```
 
 ```{r,echo=TRUE}
