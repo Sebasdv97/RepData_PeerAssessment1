@@ -37,7 +37,7 @@ per day*
 
     hist(x = sumsbyday$Total_Steps,breaks=30,xlab = "Total Number of Steps per Day", main = "Histogram of Total Number of Steps per Day")
 
-instructions_fig/Figure1.png
+https://github.com/Sebasdv97/RepData_PeerAssessment1/blob/master/instructions_fig/Figure1.png
 
 **What is the average daily activity pattern?**
 
